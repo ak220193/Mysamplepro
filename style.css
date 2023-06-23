@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 98, 121, 1) 35%,
+      rgba(0, 212, 255, 1) 100%
+    );
+  }
+  .textHead h1 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: -5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+  }
+  
+  .container {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: white;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  #wrapper {
+    border: 3px white;
+    padding: 1rem;
+  }
+  #wrapper1 {
+    position: relative;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 3px solid white;
+    margin-top: -250px;
+    border-radius: 10px;
+    justify-content: center;
+  }
+  
+  .container span {
+    margin-left: 10px;
+  }
+  
+  #ampm {
+    font-size: 3rem;
+    align-items: end;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+  .clock {
+    height: 300px;
+    width: 100%;
+    max-width: 30rem;
+    margin: 0 auto;
+    margin-top: -10rem;
+    border-radius: 50%;
+    position: relative;
+    background-image: url(https://www.pngitem.com/pimgs/m/5-54977_clock-face-png-transparent-png.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .sec {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 15%;
+    height: 5px;
+    background-color: rgb(252, 0, 0);
+    transform-origin: left;
+    border-radius: 50%;
+    transform: rotate(-90deg);
+  }
+  .hour {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 9%;
+    height: 5px;
+    background-color: rgb(252, 0, 0);
+    transform-origin: left;
+    border-radius: 50%;
+    transform: rotate(-90deg);
+  }
+  .min {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 12%;
+    height: 5px;
+    background-color: rgb(252, 0, 0);
+    transform-origin: left;
+    border-radius: 50%;
+    transform: rotate(-90deg);
+  }
+  
